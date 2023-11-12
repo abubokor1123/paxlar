@@ -1,0 +1,377 @@
+/* utility class */
+
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+.space{
+    justify-content: space-between;
+}
+
+
+/* utility class */
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, a, ul, p, li{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+}
+
+header .top-bar{
+    background-color: #efefef;
+    padding: 5px 0;
+   
+}
+.top-content  p{
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 13px;
+    align-items: center;
+}
+.top-content ul{
+    display: flex;
+    
+}
+.top-content ul li{
+    list-style: none;
+}
+.top-content ul li a{
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+.top-content ul li a:hover{
+    color: #ff9b1a;
+}
+
+
+
+.nav-link{
+    color: #161616;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+    padding: 7px 20px !important;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+}
+.nav-link:hover{
+    background-color: #ff9b1a;
+    color: #fff;
+}
+.active{
+    background-color: #ff9b1a;
+}
+.active:hover{
+    background-color: #9d5f0e;
+}
+
+
+
+
+
+.hero-section{
+    background-image: url(../image/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative; 
+}
+.bannar-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.bannar-content h1{
+    /* margin-bottom: 70PX; */
+    font-size: 52PX;
+    font-weight: 400;
+    color: #efefef;
+}
+.bannar-content ul{
+    display: flex;
+    justify-content: center;
+}
+.bannar-content ul li{
+    list-style: none;
+    text-align: center;
+    padding: 30px 50px;
+    color: #efefef;
+    font-size: 20px;
+    font-weight: 400;
+}
+.bannar-content ul li span{
+    font-size: 15px;
+}
+.height{
+    min-height: 70vh;
+    align-items: center;
+}
+.bannar_botton a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #efefef;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    transition: .5s all ease-in-out;
+
+}
+.bannar_botton a:hover{
+    background-color: #ff9b1a;
+    color: #ffffff;
+}
+
+
+
+
+
+.service_section{
+
+}
+.service_card{
+
+}
+.service_content{
+    padding: 100px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin: 50px 0;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    transition: .5s all ease-in-out;
+   
+}
+.service_content::after{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fccd4b+15,f2c248+35,ffa84c+53,f29a48+71,f48d0e+83,ff7b0d+100 */
+    background: linear-gradient(to bottom,  #fccd4b 15%,#f2c248 35%,#ffa84c 53%,#f29a48 71%,#f48d0e 83%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    transition: .5s all ease-in-out;
+}
+.service_content:hover::after{
+    opacity: .7;
+}
+.service_content:hover{
+    background-image: url(../image/coin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #efefef;
+}
+.service_icon i{
+    font-size: 70px;
+    color: #ff9b19;
+}
+.service_content:hover .service_icon i{
+    color: #efefef;
+}
+.service_text h5{
+    font-size: 17px;
+    padding: 25px 0;
+}
+.service_text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+}
+
+
+
+
+
+/* .............. */
+
+.multiple_heading{
+    padding: 30px 0;
+}
+.multiple_heading h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #2b2b2b;
+}
+.multiple_heading p{
+    font-size: 15px;
+    color: #6e6e6e;
+}
+.multiple_heading span{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #f29a48;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* .............. */
+
+
+
+.bitcoin{
+    margin: 50px 0 ;
+}
+.bitcoin_content{
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+.bitcoin_image{
+
+}
+.bitcoin_text h5{
+    color: #2b2b2b;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.bitcoin_text p{
+    font-size: 15px;
+    color: #424242;
+    margin-bottom: 70px;
+}
+.btn-view{
+   
+}
+.bitcoin a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin-bottom: 100px;
+    border: 1px solid #b3a5a5;
+    border-radius: 50px;
+    transition: .5s all ease-in-out;
+}
+.bitcoin a:hover{
+    background-color: #f29a48;
+    color: #fff;
+}
+
+
+
+.simple_step{
+    background-image: url(../image/simple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.simple-content{
+    padding: 50px;
+}
+.simple-image{
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+}
+.simple-content h2{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.simple-content span{
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #f29a48;
+    margin-bottom: 50px;
+}
+.step{
+
+}
+.shape-image{
+    margin-right: 20px;
+    
+}
+.step-text{
+
+}
+.step-text h5{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.step-text p{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.yeallo-section{
+    background-color: #f29a48;
+
+}
+.yeallo{
+    padding: 50px 0;
+}
+.yeallo span{
+    font-size: 50px;
+    color: #fff;
+}
+.yeallo p{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+.team-image{
+    padding: 70px;
+}
+
+
+
+.employe{
+    padding: 30px 0;
+}
+.empoye-image{
+
+}
+.employe-name{
+
+}
+.employe-name h6{
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+.employe-name p{
+    font-size: 14px;
+    color: #f29a48;
+    text-transform: uppercase;
+    padding: 10px;
+}
